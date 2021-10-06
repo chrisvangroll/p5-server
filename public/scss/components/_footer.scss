@@ -1,0 +1,18 @@
+footer{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+@media (max-width: 700px) {
+    .foot{
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+}
+
+@media (min-width: 701px) {
+    .foot{
+        flex-direction: row;
+    }
+    
+}

@@ -1,0 +1,31 @@
+.headr{
+    background-image: url(/images/vcam_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(78, 78, 78);
+    background-blend-mode: multiply;
+    height: 89vh;
+    h1{
+        color: white;
+    }
+    
+    .plcHolderText{
+        color: white;
+        width: 60%;
+
+        @media (max-width: 550px) {
+            width: 95%;
+        }
+    }
+
+    .seeProducts{
+        background-color: $gray;
+        color: black;
+        border: none;
+    }
+
+    .buttonStyles{
+        @include buttonStyles;
+    }
+}
